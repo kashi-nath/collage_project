@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>start the code</title>
+<script>
+function changeText()
+{
+	document.getElementById("output").innerHTML="Color Changed";
+	document.getElementById("output").style.color="blue"
+    var textBox = document.getElementById("textbox");
+    textBox.style.color = "red";
+}
+</script>
+</head>
+<body>
+<button onclick = "changeText()">Click me!</button>
+<span id = "output">replace me</span>
+<input id = "textbox" type = "text"/>
+</body>
+</html>
